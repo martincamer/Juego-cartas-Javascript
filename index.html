@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Cartas javascript</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+<body>
+
+        <header class="titulo">
+                Juego de Cartas
+        </header>
+        <main class="main">
+        <div class="row pt-2 container pb-2">
+            <div id="divBotones" class="col text-center pb-1">
+                
+                <button id="btnNuevo" class="btn btn-danger">Nuevo Juego</button>
+                <button id="btnPedir" class="btn btn-primary">Pedir Carta</button>
+                <button id="btnDetener" class="btn btn-primary">Detener</button>
+                
+
+            </div>
+        </div>
+        
+        
+        <div class="row  pb-2 container">
+            <div class="col">
+                
+                <h1>Jugador 1- <small>0</small></h1>
+                <div id="jugador-cartas">
+                    <!-- <img class="carta img-fluid" src="assets/cartas/2C.png" alt=""> -->
+                    
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row container">
+            <div class="col">
+                
+                <h1>Computadora - <small>0</small></h1>
+                <div id="computadora-cartas">
+                    <!-- <img class="carta img-fluid" src="assets/cartas/3C.png" alt=""> -->
+                  
+                </div>
+
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/underscore-min.js"></script>
+    <script src="assets/js/juego.js"></script>
+</body>
+</html>
